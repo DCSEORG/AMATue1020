@@ -11,3 +11,21 @@ WARNING: COLLABORATORS MUST FORK THE REPO AGAIN EVERY TIME THEY RUN THE CODING A
 2. Clone repo when code is generated locally and open VS Code
 3. In terminal AZ LOGIN > Set a subscription context
 4. Run the deploy.sh file (ensuring the settings in the bicep files are what you want - it will have RG name, SKU, UKSOUTH etc already set)
+
+## 🚀 Azure OpenAI Deployment
+
+This repository includes Infrastructure as Code (Bicep) for deploying Azure OpenAI and Cognitive Services:
+
+- **`main.bicep`**: Bicep template for Azure OpenAI and Cognitive Services
+- **`deploy.sh`**: Automated deployment script
+- **`DEPLOYMENT_INSTRUCTIONS.md`**: Comprehensive deployment guide
+- **`QUICK_REFERENCE.md`**: Quick reference for common tasks
+
+### Quick Deploy
+```bash
+az login
+az account set --subscription "<your-subscription>"
+./deploy.sh
+```
+
+See [DEPLOYMENT_INSTRUCTIONS.md](DEPLOYMENT_INSTRUCTIONS.md) for detailed instructions.
