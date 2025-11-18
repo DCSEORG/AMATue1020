@@ -1,0 +1,2 @@
+create the bicep file needed to spin up azure open ai instance and cognitive services needed to make a chat interface app using lowest cost development SKU in Azure, also a deploy.sh file to deploy it 
+and instructions. pick a resource group name as well for me that is unique and has today date time in it
